@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+  background-color: #6bb8b7;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
+.result-area{
+  background: black;
+  color: aliceblue;
+  height: 100px;
+
+}
+
+.ac { grid-area: cac; }
+.del { grid-area: cdel; }
+.divide { grid-area: cdivide; }
+.b1 { grid-area: cb1; }
+.b2 { grid-area: cb2; }
+.b3 { grid-area: cb3; }
+.mul { grid-area: cmul; }
+.b4 { grid-area: cb4; }
+.b5 { grid-area: cb5; }
+.b6 { grid-area: cb6; }
+.add { grid-area: caddd; }
+.b7 { grid-area: cb7; }
+.b8 { grid-area: cb8; }
+.b9 { grid-area: cb9; }
+.min { grid-area: cmin; }
+.dot { grid-area: cdott; }
+.b0 { grid-area: cb0; }
+.equal { grid-area: cequal; }
+
+
+.entry-area{
+  display: grid;
+  grid-template-areas:'cac cac cdel cdivide'
+  'cb1 cb2 cb3 cmul'
+  'cb4 cb5 cb6 caddd'
+  'cb7 cb8 cb9  cmin'
+  'cdott cb0 cequal cequal'
+  ;
+}
+
+.main-calculator{
+  width: 30%;
+  margin: 7% auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 10px 10px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
